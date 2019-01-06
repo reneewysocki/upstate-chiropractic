@@ -253,7 +253,7 @@ section{
     width: 100%;
     float: left;
     height: auto;
-    /* margin: 0 0 70px; */
+    margin: 0 0 70px; 
 }
 .section-title h2{
 	position:relative;
@@ -267,8 +267,8 @@ section{
     height: 55px;
     position: absolute;
     left: 50%;
-    content: '';
-    background: #BAD9D7;
+    /* content: '';
+    background: #BAD9D7; */
     top: -15px;
     border-radius: 5px;
     transform: rotate(45deg);
@@ -278,8 +278,8 @@ section{
     height: 55px;
     position: absolute;
     left: 50%;
-    content: '';
-    background: #BAD9D7;
+    /* content: '';
+    background: #BAD9D7; */
     bottom: -15px;
     border-radius: 5px;
     transform: rotate(45deg);
@@ -511,7 +511,9 @@ section{
 }
 
 #mission-statement {
-	line-height: 30px;
+	line-height: 35px;
+	font-style: italic;
+	text-transform: uppercase;
 }
 
 /*======================================== Services =============================*/
@@ -945,6 +947,20 @@ iframe {
 	-ms-transform:translateY(0);
 	-moz-transform:translateY(0);
 	transform:translateY(0);
+}
+
+.certifications {
+	background-color: #429893;
+}
+
+.certifications h3 {
+	color: white;
+	line-height: 30px;
+}
+
+#cert-logos img {
+	height: 250px;
+	padding: 40px;
 }
 
 /*======================================== About Us =============================*/
