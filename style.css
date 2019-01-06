@@ -51,7 +51,7 @@ a{
 	color:#333;
 }
 a:hover{
-	color:#429893;
+	color:#17BEBB;
 }
 input:focus,
 textarea:focus,
@@ -391,7 +391,7 @@ section{
 	display: inline-block;
     width: 40px;
     height: 3px;
-    background: #000;
+    background: #2d292a;
     position: relative;
     transition: all 0.3s ease-out;
     -webkit-transition: all 0.3s ease-out;
@@ -403,7 +403,7 @@ section{
     top: -11px;
     width: 100%;
     height: 3px;
-    background: #000;
+    background: #2d292a;
     border-radius: 4px;
     transition: all 0.35s ease-out;
     -webkit-transition: all 0.35s ease-out;
@@ -416,7 +416,7 @@ section{
     bottom: -11px;
     width: 100%;
     height: 3px;
-    background: #000;
+    background: #2d292a;
     border-radius: 4px;
     transition: all 0.35s ease-out;
     -webkit-transition: all 0.35s ease-out;
@@ -834,6 +834,11 @@ iframe {
 	font-size: 16px;
     bottom: 0;
     margin-right: 2px;
+}
+
+#insurance-list li {
+	line-height: 40px;
+	font-size: 18px;
 }
 
 /*======================================== Gallery =============================*/
@@ -1685,12 +1690,13 @@ blockquote {
 	float:left;
 	height:auto;
 	padding:70px 0;
-	background:#0e0e11;
+	background:#2d292a;
 }
 .footer-widget{
 	width:100%;
 	float:left;
 	height:auto;
+	color: #999;
 }
 .footer-widget h3{
 	color:#fff;
@@ -1700,37 +1706,52 @@ blockquote {
 	color:#999;
 	margin:0;
 }
-.footer-top ul{
+.footer-bottom ul{
 	width:100%;
 	float:left;
 }
-.footer-top ul li{
+.footer-bottom ul li{
 	width:100%;
 	float:left;
 	margin:0 0 12px;
 	color:#999;
 }
-.footer-top ul li:last-child{
+.footer-bottom ul li:last-child{
 	margin:0;
 }
-.footer-top ul li a{
+.footer-bottom ul li a{
 	color:#999;
 }
-.footer-top ul li a:hover{
+.footer-bottom ul li a:hover{
 	color:#429893;
 }
+
 .footer-widget .fa{
 	width:20px;
 }
+
+.footer-widget li {
+	padding: 8px;
+}
+
+.footer-widget a {
+	color: #999;
+}
+
+.footer-widget a:hover {
+	color: #17BEBB;
+}
+
 .bussiness-hour li{
 	padding-bottom:12px;
 	border-bottom:1px dashed rgba(255,255,255,0.3);
+	color: #999;
 }
 .footer-bottom{
 	width:100%;
 	float:left;
 	height:auto;
-	background:#000;
+	background:#262123;
 	padding:25px 0;
 }
 .copyright p{
@@ -2000,7 +2021,7 @@ h2{
 	margin:0 0 20px;
 }
 .footer-widget p,
-.footer-top ul li{
+.footer-bottom ul li{
 	font-size:14px;
 }
 .footer-widget{
