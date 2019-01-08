@@ -291,8 +291,16 @@ section{
 }
 
 /*======================================== Header Design ========================================*/
-#header-logo{
-	width: 75%;
+@media only screen and (min-width: 768px){
+	#header-logo{
+		width: 60%;
+	}
+}
+
+@media only screen and (min-width: 768px){
+	#patientInfo{
+		width: 250%;
+	}
 }
 
 .navbar{
@@ -438,6 +446,12 @@ section{
     bottom: 0px;
 }
 
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #429893;
+} 
+
 /*======================================== Banner Design =============================*/
 #banner{
 	width:100%;
@@ -575,6 +589,10 @@ section{
 	-ms-box-shadow:0 30px 40px rgba(0,0,0,0.05);
 	-moz-box-shadow:0 30px 40px rgba(0,0,0,0.05);
 	box-shadow:0 30px 40px rgba(0,0,0,0.05);
+}
+
+#outOfPocket {
+	padding: 30px 0px 30px 0px;
 }
 
 /*======================================== Why Choose =============================*/
