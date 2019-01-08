@@ -6,7 +6,7 @@ $fname = $_POST["fname"];
 $lname = $_POST["lname"];
 $email = $_POST["email"];
 $message = $_POST["message"];
-$EmailTo = "kerry.deyo@gmail.com";
+$EmailTo = "reneew311@gmail.com";
 $Subject = "Website Contact Form";
 
 // prepare email body text
