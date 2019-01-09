@@ -514,14 +514,14 @@ section{
 	height:14px;
 	background:#fff;
 	border-radius:50%;
-	border:2px solid #429893;
+	border:2px solid #b6d16a;
 	margin:0 0 10px;
 }
 .carousel-indicators li:last-child{
 	margin:0;
 }
 .carousel-indicators li.active{
-	background:#429893;
+	background:#b6d16a;
 }
 
 #mission-statement {
